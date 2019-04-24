@@ -93,6 +93,10 @@
 			min-width: 51em;
 		}
 
+		.banner-small .banner-small-list{
+			height: 660px;
+		}
+
 		.container.\37 5\25 {
 			width: 38.25em;
 		}
@@ -117,6 +121,10 @@
 			width: 100%;
 			max-width: 60em;
 			min-width: 48em;
+		}
+
+		.banner-small .banner-small-list{
+			height: 495px;
 		}
 
 		.container.\37 5\25 {
@@ -3124,8 +3132,18 @@
 				#header br {
 					display: none;
 				}
-			.text-indent-2{
-				text-indent: 2em;
-			}
+			
 
 	}
+
+	.text-indent-2{
+		text-indent: 1em;
+	}
+
+	.microsoft_brand_area {
+		background: #fff;
+		padding: 60px;
+		margin-bottom: 60px;
+	  }
+
+	 
