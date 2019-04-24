@@ -1,0 +1,725 @@
+﻿<!doctype html>
+
+<!--[if lt IE 7 ]> <html class="ie ie6 ie-lt10 ie-lt9 ie-lt8 ie-lt7 no-js" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie ie7 ie-lt10 ie-lt9 ie-lt8 no-js" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie ie8 ie-lt10 ie-lt9 no-js" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie ie9 ie-lt10 no-js" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+     <meta charset="utf-8">
+     
+     <!-- Always force latest IE rendering engine (even in intranet) -->
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     
+     <!-- Important stuff for SEO, don't neglect. (And don't dupicate values across your site!) -->
+     <title>Shop</title>
+     <meta name="author" content="" />
+     <meta name="description" content="" />
+     
+     <!-- Don't forget to set your site up: http://google.com/webmasters -->
+     <meta name="google-site-verification" content="" />
+     
+     <!-- Who owns the content of this site? -->
+     <meta name="Copyright" content="" />
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="manifest" href="img/favicon/manifest.json">
+     <meta name="msapplication-TileColor" content="#ffffff">
+     <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+     <meta name="theme-color" content="#ffffff">
+     
+     <!-- concatenate and minify for production -->
+     <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+     <link rel="stylesheet" href="css/icon-fonts.css" type="text/css" media="all" />
+     
+     <link rel="stylesheet" href="css/shop.css" type="text/css" media="all" />
+     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CRoboto:300,400,500,600,700,800" rel="stylesheet" type="text/css" media="all" />
+     <link rel="stylesheet" href="demo/demo-style.css" type="text/css" media="all" />
+     
+     <!-- This is a minimized, base version of Modernizr. (http://modernizr.com)
+                 You will need to create new builds to get the detects you need. -->
+     <script src="js/modernizr-3.2.0.base.js"></script>
+     
+     <!-- Twitter: see https://dev.twitter.com/docs/cards/types/summary-card for details -->
+     <meta name="twitter:card" content="">
+     <meta name="twitter:site" content="">
+     <meta name="twitter:title" content="">
+     <meta name="twitter:description" content="">
+     <meta name="twitter:url" content="">
+     <!-- Facebook (and some others) use the Open Graph protocol: see http://ogp.me/ for details -->
+     <meta property="og:title" content="" />
+     <meta property="og:description" content="" />
+     <meta property="og:url" content="" />
+     <meta property="og:image" content="" />
+</head>
+
+<body class="site_full preloader3 menu_no_transparent classic_menu horizontal_menu light_header dark_sup_menu shopping-commerce shopping-commerce-page">
+
+<div id="preloader">
+    <div class="spinner clearfix">
+        <div class="sk-dot1"></div>
+        <div class="sk-dot2"></div>
+        <div class="rect3"></div>
+        <div class="rect4"></div>
+        <div class="rect5"></div>
+    </div>
+</div>
+
+<div id="main_wrapper">
+    
+    <!-- Header -->
+    <header id="site_header">
+        <div id="nav_bar" class="hm_sticky">
+            <div class="content"> 
+                
+                <!-- Logo -->
+                <div id="logo"> 
+                    <a href="#" target="_self"> 
+                        <img class="normal_logo" src="img/logo-dark.png" width="300" height="104" alt="LookUp"> 
+                        <img class="normal_logo light_logo" src="img/logo-light.png" width="300" height="104" alt="LookUp">
+                    </a> 
+                </div>
+                
+                <!-- Top Cart -->
+                <div id="top_cart" class="top_cart">
+                    <a href="#" class="top_add_card"><i class="ico-cart"></i><span class="hm_cc">3</span></a>
+                    <div class="top_cart_con hm_toogle_prep">
+                        <div class="top_cart_block">
+                            <ul class="cart_list product_list_widget">
+                                <li class="mini_cart_item"> 
+                                    <a href="#">
+                                        <img width="75" height="75" src="img/shop/product1-a-75x75.jpg" alt="" />
+                                        <span class="cart_top_details">
+                                            <span class="top_cart_title">Nanamica Graphic</span> 
+                                            <span class="top_cart_price">17 x $58.00</span> 
+                                        </span> 
+                                    </a>
+                                </li>
+                                
+                                <li class="mini_cart_item"> 
+                                    <a href="#">
+                                        <img width="75" height="75" src="img/shop/product2-a-75x75.jpg" alt="" />
+                                        <span class="cart_top_details">
+                                            <span class="top_cart_title">Adidas Hoodie</span> 
+                                            <span class="top_cart_price">14 x $156.00</span> 
+                                        </span> 
+                                    </a>
+                                </li>
+                                
+                                <li class="mini_cart_item"> 
+                                    <a href="#">
+                                        <img width="75" height="75" src="img/shop/product5-a-75x75.jpg" alt="" />
+                                        <span class="cart_top_details">
+                                            <span class="top_cart_title">Tee Jeans</span> 
+                                            <span class="top_cart_price">12 x $220.00</span> 
+                                        </span> 
+                                    </a>
+                                </li>
+                            </ul>
+                            <p class="total"><strong>Subtotal:</strong><span class="amount"><span>$</span>370.00</span></p>
+                            <p class="buttons">
+                                <a href="#" class="button">View Cart</a>
+                                <a href="#" class="button checkout">Checkout</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Top Search -->
+                <div class="hm_icon_search"> <a href="#" class="hm_icon_search_btn"><i class="ico-search9"></i></a>
+                    <div class="hm_search_form hm_toogle_prep">
+                        <form role="search" method="get">
+                            <i class="hm_search_c ico-close"></i>
+                            <input class="hm_si" type="text" placeholder="Start Typing..." name="s">
+                        </form><!-- End Form -->
+                    </div>
+                </div>
+                <nav id="main_nav" class="f_right">
+                    <div id="nav_menu"> <span class="mobile_menu_trigger"><a href="#" class="nav_trigger"><span></span></a></span>
+                        <ul id="navy" class="clearfix">
+                            <li><a href="index.html"><span>Home</span></a></li>
+							<li><a href="shop.html"><span>Shop</span></a></li>
+							<li><a href="shop-cart.html"><span>Cart</span></a></li>
+							<li><a href="shop-single-product.html"><span>Product</span></a></li>
+							<li><a href="services.html"><span>Services</span></a></li>
+							<li><a href="about-us.html"><span>About</span></a></li>
+							<li><a href="contact-us.html"><span>Contact</span></a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <!-- End Nav -->
+                
+                <div class="clear"></div>
+            </div>
+        </div>
+    </header>
+    <!-- End Header --> 
+    
+    <!-- Page Title -->
+    <div class="content_section page_title default">
+        <div class="content clearfix">
+            <h1>Shop</h1>
+        </div>
+    </div>
+    <!-- End Page Title -->
+    
+    <div class="hm_woo_page clearfix">
+        <div class="internal_post_con clearfix">
+            <div class="hm_shop_page clearfix entry-content"> 
+                
+                <!-- Next Product -->
+                <nav class="next_product_nav">
+                    <div class="prev"> 
+                        <a href="#" class="icon-wrap"><i class="ico-chevron-left3"></i></a> 
+                    </div>
+                    <div class="next">
+                        <a href="#" class="icon-wrap"><i class="ico-chevron-right3"></i></a>
+                    </div>
+                </nav>
+                <!-- End Next Product -->
+                
+                <div class="shop_product_wrapper clearfix">
+                    <div class="product">
+                        
+                        <div class="content">
+                            <span class="onsale">Sale!</span>
+                            <div class="single_product_slider"> 
+                                <span class="sale_new"><span class="text">Sale!</span></span>
+                                <div class="thumbs_gall_slider_con content_thumbs_gall gall_arrow2">
+                                    <div class="thumbs_gall_slider_larg owl_abs_arr">
+                                        <div class="item">
+                                            <a class="feature_inner_ling hm_commerce_slider" href="img/shop/product5-a-870x1110.jpg">
+                                                <img src="img/shop/product5-a-500x600.jpg" alt="Main Product Image">
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a class="feature_inner_ling hm_commerce_slider" href="img/shop/product5-b-870x1110.jpg">
+                                                <img src="img/shop/product5-b-500x600.jpg" alt="1">
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a class="feature_inner_ling hm_commerce_slider" href="img/shop/product5-d-870x1110.jpg">
+                                                <img src="img/shop/product5-d-500x600.jpg" alt="2">
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a class="feature_inner_ling hm_commerce_slider" href="img/shop/product5-e-870x1110.jpg">
+                                                <img src="img/shop/product5-e-500x600.jpg" alt="3">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="gall_thumbs">
+                                        <div class="item">
+                                            <a class="gall_thumb_i" href="img/shop/product5-a-870x1110.jpg">
+                                                <img src="img/shop/product5-a-150x150.jpg" alt="Main Product Image">
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a class="gall_thumb_i" href="img/shop/product5-b-870x1110.jpg">
+                                                <img src="img/shop/product5-b-150x150.jpg" alt="1">
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a class="gall_thumb_i" href="img/shop/product5-d-870x1110.jpg">
+                                                <img src="img/shop/product5-d-150x150.jpg" alt="2">
+                                            </a>
+                                        </div>
+                                        <div class="item">
+                                            <a class="gall_thumb_i" href="img/shop/product5-e-870x1110.jpg">
+                                                <img src="img/shop/product5-e-150x150.jpg" alt="3">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <!-- End single_product_slider -->
+                            
+                            <div class="single_product_details">
+                                <h1 class="product_title single_product_title">Tee Jeans</h1>
+                                <div class="shopping-commerce-product-rating">
+                                    <div class="star-rating" title="Rated 5 out of 5">
+                                    	<span style="width:100%"></span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="single_product_price_con clearfix">
+                                        <del><span class="amount"><span>$</span>240.00</span></del>
+                                        <ins><span class="amount"><span>$</span>220.00</span></ins>
+                                    </div>
+                                </div>
+                                <div class="single_product_desc">
+                                    <p>There are many variations of passages of Lorem Ipsum text available, but the majority have suffered alteration in some form, by injected humour of this randomised words which don’t look even slightly believable There are many variations of passages of Lorem Ipsum available.</p>
+                                    <ul class="list_icon check_arrows clearfix">
+                                        <li><span class="list-arr"><i class="ico-arrow-right5"></i></span>High Quality Screen Print</li>
+                                        <li><span class="list-arr"><i class="ico-arrow-right5"></i></span>Print Between Shoulders</li>
+                                        <li><span class="list-arr"><i class="ico-arrow-right5"></i></span>Printed Internal Label Detail</li>
+                                        <li><span class="list-arr"><i class="ico-arrow-right5"></i></span>Crew Neck Collar</li>
+                                    </ul>
+                                </div>
+                                
+                                <form class="cart" method="post" enctype='multipart/form-data'>
+                                    <div class="quantity buttons_added clearfix">
+                                        <div class="quantity_controll_con">
+                                            <input type="button" class="quantity_controll minus" value="-">
+                                            <input type="number" step="1" min="1" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" />
+                                            <input type="button" class="quantity_controll plus" value="+">
+                                        </div>
+                                    </div>
+                                    <input type="hidden" name="add-to-cart" value="2549" />
+                                    <button type="submit" class="single_add_to_cart_button button alt">Add to cart</button>
+                                </form>
+                                <!-- End Form -->
+                                
+                                <div class="product_meta">
+                                    <div class="sku_wrapper">
+                                    	<b>SKU:</b> 
+                                        <span class="sku">002</span>
+                                    </div>
+                                    <div class="tags_con">
+                                        <span class="post_tag_t2">Categories</span> 
+                                    	<a href="#" rel="tag">Jeans</a>
+                                        <a href="#" rel="tag">Men</a>
+                                        <a href="#" rel="tag">T-Shirts</a>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <!-- End single_product_details -->
+                            <div class="clear"></div>
+                            
+                        </div>
+                        <!-- End Content -->
+                        
+                        <!-- Content -->
+                        <div class="content">
+                            <div class="hm-tabs tabs2">
+                                
+                                <nav>
+                                    <ul class="tabs-navi">
+                                        <li class="description_tab">
+                                            <a href="#" data-content="tab-description">Description</a>
+                                        </li>
+                                        <li class="additional_information_tab">
+                                            <a href="#" data-content="tab-additional_information">Additional Information</a>
+                                        </li>
+                                        <li class="reviews_tab">
+                                            <a href="#" data-content="tab-reviews">Reviews (1)</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                                
+                                <ul class="tabs-body">
+                                    <li data-content="tab-description">
+                                        <h2>Product Description</h2>
+                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour of this randomised words which don’t look even slightly believable There are many variations of passages of Lorem Ipsum available.</p>
+                                    </li>
+                                    
+                                    <li data-content="tab-additional_information">
+                                        <h2>Additional Information</h2>
+                                        <table class="shop_attributes">
+                                            <tr>
+                                                <th>Weight</th>
+                                                <td class="product_weight">100 lbs</td>
+                                            </tr>
+                                            <tr class="alt">
+                                                <th>Dimensions</th>
+                                                <td class="product_dimensions">110 x 56 x 70 in</td>
+                                            </tr>
+                                        </table>
+                                    </li>
+                                    
+                                    <li data-content="tab-reviews">
+                                        <div id="reviews">
+                                            
+                                            <div id="comments">
+                                                <h2>1 Review For <span>Tee Jeans</span></h2>
+                                                <ol class="commentlist">
+                                                    <li>
+                                                        <div id="comment-1" class="comment_container">
+                                                            <img alt='' src='img/avatar1-60x60.jpg' class='avatar' height='60' width='60' />
+                                                            <div class="comment-text">
+                                                                
+                                                                <div class="star-rating" title="Rated 5 out of 5">
+                                                                    <span style="width:100%"></span>
+                                                                </div>
+                                                                
+                                                                <p class="meta"> <strong>John Doe</strong> &ndash;
+                                                                    <time datetime="2017-01-31T09:28:13+00:00">January 31, 2017</time>
+                                                                    : </p>
+                                                                <div class="description">
+                                                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour of this randomised words which don’t look even slightly believable There are many variations of passages of Lorem Ipsum available.</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ol>
+                                            </div>
+                                            
+                                            <!-- review_form_wrapper -->
+                                            <div id="review_form_wrapper">
+                                                <div id="review_form">
+                                                    <div id="respond" class="comment-respond">
+                                                        <h3 id="reply-title" class="comment-reply-title">Add a review <small><a rel="nofollow" id="cancel-comment-reply-link" href="#">Cancel reply</a></small>
+                                                        </h3>
+                                                        <form action="#" method="post" id="commentform" class="comment-form" novalidate>
+                                                            <p class="comment-notes">
+                                                                <span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span>
+                                                            </p>
+                                                            <p class="comment-form-rating">
+                                                                <label for="rating">Your Rating</label>
+                                                                <span class="stars">
+                                                                    <a class="star-1" data-rate="1" href="#">1</a>
+                                                                    <a class="star-2" data-rate="2" href="#">2</a>
+                                                                    <a class="star-3" data-rate="3" href="#">3</a>
+                                                                    <a class="star-4" data-rate="4" href="#">4</a>
+                                                                    <a class="star-5" data-rate="5" href="#">5</a>
+                                                                </span>
+                                                                <select name="rating" id="rating" aria-required="true">
+                                                                    <option value="">Rate&hellip;</option>
+                                                                    <option value="5">Perfect</option>
+                                                                    <option value="4">Good</option>
+                                                                    <option value="3">Average</option>
+                                                                    <option value="2">Not that bad</option>
+                                                                    <option value="1">Very Poor</option>
+                                                                </select>
+                                                            </p>
+                                                            <p class="comment-form-comment">
+                                                                <label for="comment">Your Review <span class="required">*</span></label>
+                                                                <textarea id="comment" name="comment" cols="45" rows="8" aria-required="true"></textarea>
+                                                            </p>
+                                                            <p class="comment-form-author">
+                                                                <label for="author">Name <span class="required">*</span></label>
+                                                                <input id="author" name="author" type="text" value="" size="30" aria-required="true" />
+                                                            </p>
+                                                            <p class="comment-form-email">
+                                                                <label for="email">Email <span class="required">*</span></label>
+                                                                <input id="email" name="email" type="email" value="" size="30" aria-required="true" />
+                                                            </p>
+                                                            <p class="form-submit">
+                                                                <input name="submit" type="submit" id="submit" class="submit" value="Submit" />
+                                                            </p>
+                                                        </form><!-- End Form -->
+                                                    </div>
+                                                    <!-- #respond --> 
+                                                </div>
+                                            </div>
+                                            <!-- End review_form_wrapper -->
+                                            <div class="clear"></div>
+                                            
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- End Content -->
+                        
+                        <!-- Related Products -->
+                        <div class="content_section hm_woo_related bg_gray2">
+                            <div class="content content_spacer clearfix">
+                                <div class="container shop_related_title">
+                                    <h2>Related Products</h2>
+                                </div>
+                                <div class="related products">
+                                    <ul class="products">
+                                        
+                                        <li class="product">
+                                            <div class="add2cart_slide">
+                                                <div class="add2cart_image">
+                                                    <a href="#" class="add2cart_img">
+                                                        <span class="sale_new"><span class="text">Sale!</span></span>
+                                                        <span class="add2cart_zoom"><i class="ico-plus10"></i></span>
+                                                        <img src="img/shop/product8-a-500x600.jpg" alt="Vintage Jeans">
+                                                    </a>
+                                                </div>
+                                                <div class="add2cart_details">
+                                                    <div class="con_cont">
+                                                        <a class="add2cart_prod_name" href="#">Vintage Jeans</a>
+                                                        <span class="price add2cart_prod_price">
+                                                            <del><span class="amount"><span>$</span>39.00</span></del>
+                                                            <ins><span class="amount"><span>$</span>30.00</span></ins>
+                                                        </span>
+                                                        <div class="hm_rating_con clearfix">
+                                                            <div class="star-rating" title="Rated 2 out of 5">
+                                                                <span style="width:40%"></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="add2cart_buttons clearfix">
+                                                        <a href="#" class="pro_add2cart_add add2cart_btn_ajax">
+                                                            <i class="refresh_loader ico-refresh4"></i>
+                                                            <i class="hm_cart_icon ico-heart4"></i>
+                                                            <i class="hm_cart_added ico-check3"></i>
+                                                            <span>Add to cart</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        
+                                        <li class="product">
+                                            <div class="add2cart_slide">
+                                                <div class="add2cart_image">
+                                                    <a href="#" class="add2cart_img">
+                                                        <span class="hm_new_prod">New</span>
+                                                        <span class="add2cart_zoom"><i class="ico-plus10"></i></span>
+                                                        <img src="img/shop/product2-a-500x600.jpg" alt="Adidas Hoodie">
+                                                    </a>
+                                                </div>
+                                                <div class="add2cart_details">
+                                                    <div class="con_cont">
+                                                        <a class="add2cart_prod_name" href="#">Adidas Hoodie</a>
+                                                        <span class="price add2cart_prod_price">
+                                                            <span class="amount"><span>$</span>156.00</span>
+                                                        </span>
+                                                        <div class="hm_rating_con clearfix">
+                                                            <div class="star-rating" title="Rated 5 out of 5">
+                                                                <span style="width:100%"></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="add2cart_buttons clearfix">
+                                                        <a href="#" class="pro_add2cart_add add2cart_btn_ajax">
+                                                            <i class="refresh_loader ico-refresh4"></i>
+                                                            <i class="hm_cart_icon ico-heart4"></i>
+                                                            <i class="hm_cart_added ico-check3"></i>
+                                                            <span>Add to cart</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        
+                                        <li class="product">
+                                            <div class="add2cart_slide">
+                                                <div class="add2cart_image">
+                                                    <a href="#" class="add2cart_img">
+                                                        <span class="add2cart_zoom"><i class="ico-plus10"></i></span>
+                                                        <img src="img/shop/product4-a-500x600.jpg" alt="Caterpillar Shoes">
+                                                    </a>
+                                                </div>
+                                                <div class="add2cart_details">
+                                                    <div class="con_cont">
+                                                        <a class="add2cart_prod_name" href="#">Caterpillar Shoes</a>
+                                                        <span class="price add2cart_prod_price">
+                                                            <span class="amount"><span>$</span>370.00</span>
+                                                        </span>
+                                                        <div class="hm_rating_con clearfix">
+                                                            <div class="star-rating" title="Rated 5 out of 5">
+                                                                <span style="width:100%"></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="add2cart_buttons clearfix">
+                                                        <a href="#" class="pro_add2cart_add add2cart_btn_ajax">
+                                                            <i class="refresh_loader ico-refresh4"></i>
+                                                            <i class="hm_cart_icon ico-heart4"></i>
+                                                            <i class="hm_cart_added ico-check3"></i>
+                                                            <span>Add to cart</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        
+                                        <li class="product">
+                                            <div class="add2cart_slide">
+                                                <div class="add2cart_image">
+                                                    <a href="#" class="add2cart_img">
+                                                        <span class="add2cart_zoom"><i class="ico-plus10"></i></span>
+                                                        <img src="img/shop/product1-a-500x600.jpg" alt="Nanamica Graphic Tee"> </a>
+                                                </div>
+                                                <div class="add2cart_details">
+                                                    <div class="con_cont">
+                                                        <a class="add2cart_prod_name" href="#">Nanamica Graphic Tee</a>
+                                                        <span class="price add2cart_prod_price">
+                                                            <span class="amount"><span>$</span>58.00</span>
+                                                        </span>
+                                                        <div class="hm_rating_con clearfix">
+                                                            <div class="star-rating" title="Rated 1 out of 5">
+                                                                <span style="width:20%"></span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="add2cart_buttons clearfix">
+                                                        <a href="#" class="pro_add2cart_add add2cart_btn_ajax">
+                                                            <i class="refresh_loader ico-refresh4"></i>
+                                                            <i class="hm_cart_icon ico-heart4"></i>
+                                                            <i class="hm_cart_added ico-check3"></i>
+                                                            <span>Add to cart</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Related Products -->
+                        
+                    </div>
+                    <!-- End product -->   
+                </div>
+                <!-- End shop_product_wrapper -->
+                
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer id="footer" class="hm_dark_footer">
+        <div class="container clearfix">
+            <div class="rows_container clearfix"> 
+                
+                <!-- Footer Column -->
+                <div class="hm_columns col-md-3">
+                    <div class="hm_column_con">
+                        <div class="footer_row clearfix custom_text_with_image">
+                            <h6 class="footer_title">About LookUp</h6>
+                            <span class="footer_desc">Cras at ultrices erat, sed vulputate eros. Nunc at augue gravida est fermentum vulputate.</span>
+                        </div>
+                        <div class="footer_row clearfix newsletter_widget">
+                            <h6 class="footer_title">Newsletter</h6>
+                            <span class="footer_desc">Enter your e-mail and subscribe to our newsletter:</span>
+                            <form id="newsletter_form" class="newsletter_form" action="php/subscribe.php" method="post">
+                                <div class="newsletter_con"> <span class="newsl_i"> <i class="subscribe_true ico-check3"></i> <i class="refresh_loader ico-refresh4"></i> </span> 
+                                    <!--<input type="text" class="fname-subs" name="fname" placeholder="First Name" />-->
+                                    <input class="subscribe-mail" name="subscribe-mail" id="subscribe-mail" type="email" placeholder="Your Email *" required />
+                                    <input type="hidden" name="action" value="mailchimpsubscribe" />
+                                    <button type="submit" name="submit" class="newsletter_button"><span class="subscribe_btn">Go!</span></button>
+                                </div>
+                                <div id="subscribe_output"></div>
+                            </form><!-- End Form -->
+                        </div>
+                    </div>
+                </div>
+                <!-- End Footer Column --> 
+                
+                <!-- Footer Column -->
+                <div class="hm_columns col-md-3">
+                    <div class="hm_column_con">
+                        <div class="footer_row clearfix posts_widget">
+                            <h6 class="footer_title">Posts</h6>
+                            <ul class="recent_posts_list clearfix">
+                                <li class="clearfix"> <a href="#"> <span>Easy to Customize</span></a><span class="recent_post_detail">Aug 1, 2017</span> </li>
+                                <li class="clearfix"> <a href="#"> <span>Best User Interface</span></a><span class="recent_post_detail">Aug 1, 2017</span> </li>
+                                <li class="clearfix"> <a href="#"><span>Amazing standard post</span></a><span class="recent_post_detail">Aug 1, 2017</span> </li>
+                                <li class="clearfix"> <a href="#"><span>Clean and simple Design</span></a><span class="recent_post_detail">Aug 1, 2017</span> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Footer Column --> 
+                
+                <!-- Footer Column -->
+                <div class="hm_columns col-md-3">
+                    <div class="hm_column_con">
+                        <div class="footer_row clearfix tag_cloud_widget">
+                            <h6 class="footer_title">Tag Cloud</h6>
+                            <div class="tagcloud hm_tagcloud style2 clearfix"> 
+                                <a href='#'><span class='tag'>Culture</span><span class='num'>4</span></a>
+                                <a href='#'><span class='tag'>Graphic</span><span class='num'>1</span></a>
+                                <a href='#'><span class='tag'>Lifestyle</span><span class='num'>4</span></a>
+                                <a href='#'><span class='tag'>News</span><span class='num'>2</span></a>
+                                <a href='#'><span class='tag'>Photography</span><span class='num'>2</span></a>
+                                <a href='#'><span class='tag'>Travel</span><span class='num'>1</span></a>
+                                <a href='#'><span class='tag'>Web Design</span><span class='num'>3</span></a>
+                                <a href='#'><span class='tag'>Wordpress</span><span class='num'>6</span></a>
+                                <a href='#'><span class='tag'>Design</span><span class='num'>4</span></a>
+                                <a href='#'><span class='tag'>CSS3</span><span class='num'>1</span></a>
+                                <a href='#'><span class='tag'>Printing</span><span class='num'>4</span></a>
+                                <a href='#'><span class='tag'>News</span><span class='num'>2</span></a>
+                                <a href='#'><span class='tag'>Photography</span><span class='num'>2</span></a>
+                                <a href='#'><span class='tag'>Travel</span><span class='num'>1</span></a> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Footer Column --> 
+                
+                <!-- Footer Column -->
+                <div class="hm_columns col-md-3">
+                    <div class="hm_column_con">
+                        <div class="footer_row clearfix contact_details_widget">
+                            <h6 class="footer_title">Contact Info</h6>
+                            <ul class="icon_details_list">
+                                <li><i class="ico-map-marker2"></i>98/23 Second Street, San Francisco</li>
+                                <li><i class="ico-phone2"></i>( 90 ) 188 765 3429</li>
+                                <li><i class="ico-envelope5"></i><a href="http://sc.chinaz.com">info@sitename.com</a></li>
+                                <li><i class="ico-email"></i><a href="http://sc.chinaz.com">Support@site.com</a></li>
+                                <li><i class="ico-globe4"></i><a href="http://sc.chinaz.com">ideal-theme.com</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer_row clearfix social_links_widget">
+                            <div class="social_links_widget socials_widget clearfix default_socials simple_socials socials_text_color"> 
+                                <a target="_blank" href="#"><span class="social_in" style="background:#516ca4;"></span><i class="ico-facebook3"></i></a> 
+                                <a target="_blank" href="#"><span class="social_in" style="background:#00baff;"></span><i class="ico-twitter5"></i></a>
+                                <a target="_blank" href="#"><span class="social_in" style="background:#dc71a6;"></span><i class="ico-dribbble5"></i></a>
+                                <a target="_blank" href="#"><span class="social_in" style="background:#ed523d;"></span><i class="ico-googleplus"></i></a>
+                                <a target="_blank" href="#"><span class="social_in" style="background:#1985bc;"></span><i class="ico-linkedin2"></i></a> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Footer Column --> 
+                
+            </div>
+        </div>
+        
+        <!-- Footer Copyright -->
+        <div class="footer_copyright">
+            <div class="container clearfix foot_cols">
+                <div class="hm_columns col-md-6">
+                    <div class="hm_column_con"> <span class="footer_copy_text">Copyright &copy; 2017.Company name All rights reserved.</span> </div>
+                </div>
+                <div class="hm_columns col-md-6">
+                    <div class="hm_column_con">
+                        <ul id="menu-footer-menu" class="footer_menu f_right clearfix">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Our Office</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer --> 
+    
+    <a href="#0" class="hm_go_top"></a> 
+    
+</div>
+<!-- End wrapper --> 
+
+<!-- Grab Google CDN's jQuery. fall back to local if necessary --> 
+<script src="js/jquery-1.12.1.min.js"></script> 
+ 
+<script type="text/javascript" src="js/jquery-migrate-1.4.1.min.js"></script> 
+<script type="text/javascript" src="js/plugins.min.js"></script> 
+
+<!-- this is where we put our custom functions --> 
+<!-- don't forget to concatenate and minify for production --> 
+<script type="text/javascript" src="js/functions.js"></script> 
+
+<!--  google analytics; this is the official snippet.
+	 
+
+<script>
+  
+  
+  
+  
+
+  
+  
+
+</script>
+-->
+
+</body>
+</html>
