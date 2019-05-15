@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1 user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>数独游戏</title>
+    <link rel="stylesheet" href="../dist/css/main.css">
+</head>
+<body>
+        <!--头部标题-->
+        <header id="head">
+            <span class="title">数独游戏</span>
+        </header>
+        <!--主面板 -->
+        <div id="container" class="container grid"></div>
+        <!--底部-->
+        <footer id="dashboard" class="dashboard">
+            <div class="buttons">
+                <button type="button" id="check">检查</button>
+                <button type="button" id="reset">重置</button>
+                <button type="button" id="clear">清理</button>
+                <button type="button" id="rebuild">重建</button>
+            </div>
+        </footer>
+        <div class="popboard grid hidden"></div>
+        <script type="text/javascript" src="../dist/bundle.js"></script>
+</body>
+</html>
