@@ -23,3 +23,9 @@ npm start
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+FAQ:
+   
+- Q: 报错：src/node_contextify.cc 631:assertion 'arg[1]->IsString()' faill
+   
+   A:  <kbd> npm install natives </kbd>
